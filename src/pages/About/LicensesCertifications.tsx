@@ -10,7 +10,7 @@ const certifications = [
   },
   {
     title: 'Temporary National Labor Services License (Saudi recruitment)',
-    imageUrl: 'https://images.unsplash.com/photo-1575504348239-6b62b7b514f6?q=80&w=1887&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1695910600609-1297a023dfbc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bGFib3VyJTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D',
   },
   {
     title: 'Global Business Outlook Awards 2020 - Fastest Growing Human Resource Company in Saudi Arabia',

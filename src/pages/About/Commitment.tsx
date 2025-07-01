@@ -41,7 +41,7 @@ const Commitment = () => {
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
               <img 
-                src="https://images.unsplash.com/photo-1600880292210-85948a30591a?q=80&w=1887&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1681505526188-b05e68c77582?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YnVzaW5lc3MlMjBjb21taXRtZW50fGVufDB8fDB8fHww" 
                 alt="Business Commitment" 
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
               />
@@ -56,7 +56,7 @@ const Commitment = () => {
                   We're not merely recruiting; we're curating teams and solutions designed to facilitate sustainable growth, while complying with ethical and legal standards.
                 </p>
                 <p>
-                  By adeptly aligning talents with opportunities, in accordance with the Saudi Labor Law and global best practices, our workforce solutions are designed to stay ahead of market demands, all within a reasonable pricing framework.
+                  By adeptly aligning talents with opportunities, in accordance with the Bangladeshi Labor Law and global best practices, our workforce solutions are designed to stay ahead of market demands, all within a reasonable pricing framework.
                 </p>
                 <p>
                   What sets us apart? We are dedicated to providing superior services and consistently improving. We believe this commitment is fundamental to creating added value for our clients.

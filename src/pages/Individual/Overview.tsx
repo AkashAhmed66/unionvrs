@@ -17,7 +17,7 @@ const IndividualOverview = () => {
       {/* Hero Section */}
       <section
         className="relative bg-cover bg-center h-[500px] text-white"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1560264418-c4447361158a?q=80&w=1770&auto=format&fit=crop')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1741707039387-ac8025a4c36e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGluZGl2aWR1YWwlMjB3b3JrJTIwc2VjdG9yfGVufDB8fDB8fHww')" }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative z-10 flex flex-col justify-end h-full container mx-auto px-4 pb-16">
@@ -46,7 +46,7 @@ const IndividualOverview = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
-                <img src="https://images.unsplash.com/photo-1582719182343-a9176d654260?q=80&w=1770&auto=format&fit=crop" alt="Housekeeping service" className="rounded-lg shadow-lg" />
+                <img src="https://plus.unsplash.com/premium_photo-1678304224614-9a5b4f73109a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG91c2UlMjBrZWVwaW5nfGVufDB8fDB8fHww" alt="Housekeeping service" className="rounded-lg shadow-lg" />
             </div>
             <div className="lg:w-1/2">
               <p className="text-teal-500 font-semibold">OVERVIEW</p>
@@ -97,7 +97,7 @@ const IndividualOverview = () => {
                     <p className="mt-6 text-gray-600">As soon as payment is received, the contract will be activated, and you will receive a confirmation SMS.</p>
                 </div>
                 <div className="lg:w-1/2 mt-8 lg:mt-0">
-                    <img src="https://images.unsplash.com/photo-1614926017290-3c737038c4d2?q=80&w=1780&auto=format&fit=crop" alt="Union App on phone" className="rounded-lg shadow-lg" />
+                    <img src="https://plus.unsplash.com/premium_photo-1675660733751-1954f47abfef?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Union App on phone" className="rounded-lg shadow-lg" />
                 </div>
             </div>
         </div>

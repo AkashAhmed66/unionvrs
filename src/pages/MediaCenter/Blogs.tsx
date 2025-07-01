@@ -15,7 +15,7 @@ const blogPosts = [
   {
     id: 2,
     title: '10 Years of Union: A Journey of Growth, Excellence, and Impact',
-    excerpt: 'This year, we celebrate a remarkable milestone - 10 years since Union was founded. A decade of dedication, transformation, and delivering trusted workforce solutions across the Kingdom and beyond. What started as a vision in 2015 has evolved...',
+    excerpt: 'This year, we celebrate a remarkable milestone - 10 years since Union was founded. A decade of dedication, transformation, and delivering trusted workforce solutions across Bangladesh and beyond. What started as a vision in 2015 has evolved...',
     date: 'December 28, 2024',
     category: 'Company News',
     imageUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1740&auto=format&fit=crop'

@@ -11,7 +11,7 @@ const EServices = () => {
       {/* Hero Section */}
       <section
         className="relative bg-cover bg-center h-[500px] text-white"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1554224155-8d044b403258?q=80&w=1770&auto=format&fit=crop')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1688561809321-e51e8a4d6651?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative z-10 flex flex-col justify-end h-full container mx-auto px-4 pb-16">

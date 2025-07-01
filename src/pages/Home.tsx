@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, ArrowLeft } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import usePageTitle from '../hooks/usePageTitle';
 
 const services = [
@@ -70,9 +71,9 @@ const Home = () => {
               <p className="mt-3 sm:mt-4 text-sm sm:text-base md:text-lg lg:text-xl opacity-90 max-w-full md:max-w-xl">
                 Our highly trained and qualified workers provide exceptional services that meet your diverse needs and expectations.
               </p>
-              <button className="mt-6 sm:mt-8 bg-transparent border-2 border-white text-white font-bold py-2 px-3 sm:py-3 sm:px-4 md:px-6 rounded-lg hover:bg-white hover:text-[#001f3f] transition-colors flex items-center text-xs sm:text-sm md:text-base w-fit">
+              <Link to="/individual/services" className="mt-6 sm:mt-8 bg-transparent border-2 border-white text-white font-bold py-2 px-3 sm:py-3 sm:px-4 md:px-6 rounded-lg hover:bg-white hover:text-[#001f3f] transition-colors flex items-center text-xs sm:text-sm md:text-base w-fit">
                 Individual Services <ArrowRight className="ml-2" size={16} />
-              </button>
+              </Link>
             </div>
             
           </div>
@@ -91,10 +92,10 @@ const Home = () => {
           <div className="md:pr-8 order-2 md:order-1">
             <p className="text-blue-500 font-semibold">ABOUT</p>
             <h2 className="text-3xl md:text-4xl font-bold text-[#001f3f] mt-2">
-              Established in 2015, Union started as a Saudi closed joint-stock company, transcending the boundaries of traditional recruitment agencies.
+              Established in 2015, Union started as a Bangladeshi closed joint-stock company, transcending the boundaries of traditional recruitment agencies.
             </h2>
             <p className="mt-4 text-gray-600">
-              Operating with global standards and local expertise, Union has rapidly grown both its client portfolio and workforce. Over the past years, Union has made significant contributions to key sectors of the Kingdom's economy, including hospitality, construction, healthcare, industrial, and retail. Our commitment to excellence and transparency is evident through ...
+              Operating with global standards and local expertise, Union has rapidly grown both its client portfolio and workforce. Over the past years, Union has made significant contributions to key sectors of Bangladesh's economy, including hospitality, construction, healthcare, industrial, and retail. Our commitment to excellence and transparency is evident through ...
             </p>
             <button className="mt-6 text-blue-500 font-bold flex items-center">
               Why Union <ArrowRight className="ml-2" />
@@ -118,7 +119,7 @@ const Home = () => {
               Connecting Needs, Empowering Lives
             </h2>
             <p className="mt-4 text-gray-600">
-              We take pride in being the catalyst for positive change in the Kingdom, shaping brighter futures for both businesses and individuals. Experience the power of connection with us and let us empower your journey.
+              We take pride in being the catalyst for positive change in Bangladesh, shaping brighter futures for both businesses and individuals. Experience the power of connection with us and let us empower your journey.
             </p>
           </div>
 
@@ -159,7 +160,7 @@ const Home = () => {
             </div>
             <div className="text-center">
               <p className="text-5xl font-bold text-blue-400">100M</p>
-              <p className="mt-2">Saudi Riyals</p>
+              <p className="mt-2">Bangladeshi Taka</p>
             </div>
             <div className="text-center">
               <p className="text-5xl font-bold text-blue-400">26,000+</p>
@@ -183,9 +184,9 @@ const Home = () => {
               </h2>
             </div>
             <div className="text-center md:text-right">
-            <button className="mt-4 md:mt-8 bg-transparent border-2 border-white text-white font-bold py-3 px-6 rounded-lg hover:bg-white hover:text-[#001f3f] transition-colors inline-flex items-center">
+            <Link to="/contact" className="mt-4 md:mt-8 bg-transparent border-2 border-white text-white font-bold py-3 px-6 rounded-lg hover:bg-white hover:text-[#001f3f] transition-colors inline-flex items-center">
               Contact US Today <ArrowRight className="ml-2" />
-            </button>
+            </Link>
             </div>
         </div>
       </section>

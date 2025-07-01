@@ -15,7 +15,7 @@ const Footer = () => {
               </Link>
             </div>
             <p className="text-sm max-w-full lg:max-w-sm mb-6 break-words">
-              Union, a Saudi closed joint-stock company, transcends traditional recruitment by providing comprehensive, reliable HR solutions tailored to your needs.
+              Union, a Bangladeshi closed joint-stock company, transcends traditional recruitment by providing comprehensive, reliable HR solutions tailored to your needs.
             </p>
             <div className="flex space-x-4 flex-wrap justify-start">
               <a href="#" className="p-2 rounded-full bg-gray-700 hover:bg-blue-500 transition-colors flex-shrink-0"><Linkedin size={20} /></a>

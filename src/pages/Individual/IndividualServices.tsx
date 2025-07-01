@@ -9,19 +9,19 @@ const servicesData = [
     title: `Resident Services`,
     tagline: `At Union, your comfort takes center stage, and we're committed to delivering a premium service with live-in, trained, and qualified houseworkers held to the highest standards.`,
     description: `Choose from our array of packages tailored to meet your every need.`,
-    imageUrl: `https://images.unsplash.com/photo-1582719201943-1f1a1d35a1a2?q=80&w=1770&auto=format&fit=crop`,
+    imageUrl: `https://plus.unsplash.com/premium_photo-1663047695260-98cde4d6bbc7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmVzaWRlbnRpYWwlMjBzZXJ2aWNlfGVufDB8fDB8fHww`,
   },
   {
     title: `On-Demand Services`,
     tagline: `With a monthly record of over 90 000 home visits, averaging 4 000 daily, we take care of your household chores without you worrying about sponsoring or housing a domestic worker.`,
     description: `Our solutions include a wide variety of customized, professional, and convenient home-based services, available hourly.`,
-    imageUrl: `https://images.unsplash.com/photo-1583484963886-75b2b5d1348b?q=80&w=1770&auto=format&fit=crop`,
+    imageUrl: `https://plus.unsplash.com/premium_photo-1661755677315-d5fcd4942b20?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG9uJTIwZGVtYW5kJTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D`,
   },
   {
     title: `Mediation Services`,
     tagline: `In line with the Ministry of Human Resources, our mediation services for resident workers (Esteqdam) are available via the governmental platform "Musaned".`,
     description: `Once you request your worker's visa through the platform, choose Union, and we'll complete the rest of the procedures. You can enjoy the benefits of this service upon request, for a period anywhere between 45 and 90 days. Included: Receiving the worker from the ...`,
-    imageUrl: `https://images.unsplash.com/photo-1607502787834-455b5438813a?q=80&w=1887&auto=format&fit=crop`,
+    imageUrl: `https://images.unsplash.com/photo-1655970580622-4a547789c850?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVkaXRhdGlvbiUyMHNlcnZpY2V8ZW58MHx8MHx8fDA%3D`,
   }
 ];
 
@@ -33,7 +33,7 @@ const IndividualServices = () => {
       {/* Hero Section */}
       <section
         className="relative bg-cover bg-center h-[500px] text-white"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1582719182343-a9176d654260?q=80&w=1770&auto=format&fit=crop')" }}
+        style={{ backgroundImage: "url('https://plus.unsplash.com/premium_photo-1661955607472-07eff10dafa1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative z-10 flex flex-col justify-end h-full container mx-auto px-4 pb-16">

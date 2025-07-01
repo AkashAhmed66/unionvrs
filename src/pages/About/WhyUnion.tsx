@@ -49,12 +49,12 @@ const WhyUnion = () => {
         <div className="container mx-auto px-4 max-w-5xl">
           <p className="text-sm font-bold text-blue-600 uppercase">ABOUT</p>
           <h2 className="text-3xl md:text-4xl font-bold text-[#001f3f] mt-2 mb-6">
-            Established in 2015, Union started as a Saudi closed joint-stock company, transcending the boundaries of traditional recruitment agencies.
+            Established in 2015, Union started as a Bangladeshi closed joint-stock company, transcending the boundaries of traditional recruitment agencies.
           </h2>
           <div className="text-gray-600 space-y-4 text-lg">
-            <p>Operating with global standards and local expertise, Union has rapidly grown both its client portfolio and workforce. Over the past years, Union has made significant contributions to key sectors of the Kingdom's economy, including hospitality, construction, healthcare, industrial, and retail. Our commitment to excellence and transparency is evident through substantial investments in technological infrastructure, policy development, and procedures alignment with these principles.</p>
-            <p>Union has forged international partnerships focusing on ethical recruitment practices, human rights, and combating human trafficking. Care is ingrained in Union's values, with accommodations strategically located throughout the Kingdom, ensuring employee well-being during emergencies. Our commitment extends to providing top-tier healthcare through licensed providers and establishing a dedicated employee hotline for swift issue resolution.</p>
-            <p>Looking forward to the end of 2026, Union aims to expand its workforce to nearly 30,000 employees, achieve sales exceeding one billion Saudi Riyals, all while delivering an unparalleled customer experience.</p>
+            <p>Operating with global standards and local expertise, Union has rapidly grown both its client portfolio and workforce. Over the past years, Union has made significant contributions to key sectors of Bangladesh's economy, including hospitality, construction, healthcare, industrial, and retail. Our commitment to excellence and transparency is evident through substantial investments in technological infrastructure, policy development, and procedures alignment with these principles.</p>
+            <p>Union has forged international partnerships focusing on ethical recruitment practices, human rights, and combating human trafficking. Care is ingrained in Union's values, with accommodations strategically located throughout Bangladesh, ensuring employee well-being during emergencies. Our commitment extends to providing top-tier healthcare through licensed providers and establishing a dedicated employee hotline for swift issue resolution.</p>
+            <p>Looking forward to the end of 2026, Union aims to expand its workforce to nearly 30,000 employees, achieve sales exceeding one billion Bangladeshi Taka, all while delivering an unparalleled customer experience.</p>
           </div>
         </div>
       </section>
@@ -71,7 +71,7 @@ const WhyUnion = () => {
             <div>
               <p className="text-sm uppercase tracking-widest">Invested Capital</p>
               <p className="text-6xl font-bold mt-2">100M</p>
-              <p className="mt-2 text-lg">Saudi Riyals</p>
+              <p className="mt-2 text-lg">Bangladeshi Taka</p>
             </div>
             <div>
               <p className="text-sm uppercase tracking-widest">Team of Professionals</p>
@@ -93,7 +93,7 @@ const WhyUnion = () => {
                 </div>
               </div>
               <h3 className="text-3xl font-bold mb-4">Vision</h3>
-              <p className="text-lg text-gray-300">Our vision is to be the preferred partner for comprehensive human resource solutions and the trusted human capital choice for clients in the Kingdom.</p>
+              <p className="text-lg text-gray-300">Our vision is to be the preferred partner for comprehensive human resource solutions and the trusted human capital choice for clients in Bangladesh.</p>
             </div>
             <div>
               <div className="flex justify-center mb-4">
@@ -102,7 +102,7 @@ const WhyUnion = () => {
                 </div>
               </div>
               <h3 className="text-3xl font-bold mb-4">Mission</h3>
-              <p className="text-lg text-gray-300">To empower organizations and elevate customers' experience in the human capital services market, through a diverse workforce comprising both Saudi nationals and expatriates.</p>
+              <p className="text-lg text-gray-300">To empower organizations and elevate customers' experience in the human capital services market, through a diverse workforce comprising both Bangladeshi nationals and expatriates.</p>
             </div>
           </div>
         </div>

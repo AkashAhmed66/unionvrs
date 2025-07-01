@@ -5,9 +5,9 @@ import ServiceSection from '../../components/ui/ServiceSection';
 import usePageTitle from '../../hooks/usePageTitle';
 
 const industries = [
-    { name: 'Delivery Services', image: 'https://images.unsplash.com/photo-1617396393472-96536b6b5b5c?q=80&w=1770&auto=format&fit=crop' },
+    { name: 'Delivery Services', image: 'https://plus.unsplash.com/premium_photo-1682090260563-191f8160ca48?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
     { name: 'Construction & Operations Maintenance', image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1740&auto=format&fit=crop' },
-    { name: 'Retail', image: 'https://images.unsplash.com/photo-1556742111-a3297a0e5d52?q=80&w=1740&auto=format&fit=crop' },
+    { name: 'Retail', image: 'https://images.unsplash.com/photo-1601924994987-69e26d50dc26?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cmV0YWlsfGVufDB8fDB8fHww' },
     { name: 'FMCG Food & Beverage', image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1674&auto=format&fit=crop' },
     { name: 'Hospitality', image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1770&auto=format&fit=crop' },
 ];
@@ -22,7 +22,7 @@ const CorporateOverview = () => {
       {/* Hero Section */}
       <section
         className="relative bg-cover bg-center h-[500px] text-white"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1560264418-c4447361158a?q=80&w=1770&auto=format&fit=crop')" }}
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative z-10 flex flex-col justify-end h-full container mx-auto px-4 pb-16">
@@ -114,7 +114,7 @@ const CorporateOverview = () => {
             </div>
             <div>
               <p className="text-gray-600 leading-relaxed">
-                We take pride in being the catalyst for positive change in the Kingdom, shaping brighter futures for both businesses and individuals. Experience the power of connection with us and let us empower your journey.
+                We take pride in being the catalyst for positive change in Bangladesh, shaping brighter futures for both businesses and individuals. Experience the power of connection with us and let us empower your journey.
               </p>
             </div>
           </div>

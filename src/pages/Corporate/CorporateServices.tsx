@@ -9,7 +9,7 @@ const servicesData = [
     title: `Staff Placement`,
     tagline: `Union Human Resources Company takes the hard work out of the job search by using their knowledge and resources to connect candidates and employers.`,
     description: `We are always on the lookout for qualified employees to fill local upcoming positions. We provide you with flexible staffing solutions, including temporary, permanent, or temp-to-hire arrangements. This flexibility can help you scale your workforce based on changing needs. ...`,
-    imageUrl: `https://images.unsplash.com/photo-1600880292210-85938c1b3639?q=80&w=1887&auto=format&fit=crop`,
+    imageUrl: `https://plus.unsplash.com/premium_photo-1681074963670-2110c58f4c24?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
   },
   {
     title: `Permanent Hiring`,
@@ -21,7 +21,7 @@ const servicesData = [
     title: `Managed Workforce Solutions`,
     tagline: `Union provides a range of strategies and services aimed at managing and optimizing the human resources within your organization.`,
     description: `These solutions are designed to address various aspects of workforce management, ensuring that your staffing needs align with your business goals. This ecosystem of solutions constitutes a wide array of services related to recruitment, primarily focused on complementary ...`,
-    imageUrl: `https://images.unsplash.com/photo-1521737852577-684822b88651?q=80&w=1769&auto=format&fit=crop`,
+    imageUrl: `https://images.unsplash.com/photo-1640163561346-7778a2edf353?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdvcmtmb3JjZSUyMHNvbHV0aW9ufGVufDB8fDB8fHww`,
   }
 ];
 
@@ -33,7 +33,7 @@ const CorporateServices = () => {
       {/* Hero Section */}
       <section
         className="relative bg-cover bg-center h-[500px] text-white"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1560264418-c4447361158a?q=80&w=1770&auto=format&fit=crop')" }}
+        style={{ backgroundImage: "url('https://plus.unsplash.com/premium_photo-1661439767255-1a71de338b6a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29ycG9yYXRlJTIwc2VydmljZXxlbnwwfHwwfHx8MA%3D%3D')" }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="relative z-10 flex flex-col justify-end h-full container mx-auto px-4 pb-16">

@@ -8,14 +8,14 @@ const CEOsMessage = () => {
   const ceoQuote = (
     <>
       At Union, our vision extends beyond recruitment; we are dedicated to fostering growth 
-      and empowering talent to build a prosperous future for the Kingdom.
+      and empowering talent to build a prosperous future for Bangladesh.
     </>
   );
 
   const ceoParagraphs = [
     `Innovation is the cornerstone of our strategy. We are continuously investing in technology and our people to redefine the standards of human resources. Our goal is to create a seamless and efficient experience for both our clients and the candidates we place.`,
     `We believe that the heart of any successful enterprise is its people. That is why we are committed to not just filling positions, but to building careers. Through targeted training and development programs, we ensure our workforce is equipped for the challenges of tomorrow.`,
-    `As we look to the future, we are excited to continue playing a pivotal role in the Kingdom's development. We are expanding our services, forging new partnerships, and remain steadfast in our commitment to delivering excellence and driving progress across all sectors.`
+    `As we look to the future, we are excited to continue playing a pivotal role in Bangladesh's development. We are expanding our services, forging new partnerships, and remain steadfast in our commitment to delivering excellence and driving progress across all sectors.`
   ];
 
   return (
