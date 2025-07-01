@@ -2,6 +2,7 @@ import React from 'react';
 import { Home, ChevronRight, Share2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import AccordionItem from '../../components/ui/AccordionItem';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const faqData = [
     {
@@ -9,8 +10,8 @@ const faqData = [
       answer: `Workers are selected taking extreme care in assessing their physical and mental condition. They are not brought in until a medical examination has been conducted and reviewed.`,
     },
     {
-      question: `When was Mueen Human Resources Company established?`,
-      answer: `Mueen Human Resources Company was established to provide top-tier recruitment services. Our founding was driven by the goal of bridging the gap between qualified candidates and employers in need of reliable talent.`,
+      question: `When was Union Human Resources Company established?`,
+      answer: `Union Human Resources Company was established to provide top-tier recruitment services. Our founding was driven by the goal of bridging the gap between qualified candidates and employers in need of reliable talent.`,
     },
     {
       question: `Are the workers trained?`,
@@ -30,7 +31,7 @@ const faqData = [
     },
     {
         question: `Is your company licensed and insured?`,
-        answer: `Yes, Mueen Human Resources Company is fully licensed by the relevant authorities and carries comprehensive insurance to protect both our clients and our workers.`,
+        answer: `Yes, Union Human Resources Company is fully licensed by the relevant authorities and carries comprehensive insurance to protect both our clients and our workers.`,
     },
     {
         question: `Can I request a housemaid for a one-time service?`,
@@ -44,6 +45,8 @@ const faqData = [
   
 
 const IndividualFaq = () => {
+  usePageTitle('Individual FAQ');
+
   return (
     <div>
       {/* Hero Section */}

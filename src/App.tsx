@@ -16,7 +16,7 @@ import IndividualServices from './pages/Individual/IndividualServices';
 import IndividualFaq from './pages/Individual/Faq';
 
 // About
-import WhyMueen from './pages/About/WhyMueen';
+import WhyUnion from './pages/About/WhyUnion';
 import LicensesCertifications from './pages/About/LicensesCertifications';
 import Commitment from './pages/About/Commitment';
 import ChairmansMessage from './pages/About/ChairmansMessage';
@@ -47,7 +47,7 @@ function App() {
           <Route path="individual/faq" element={<IndividualFaq />} />
 
           {/* About */}
-          <Route path="about/why-mueen" element={<WhyMueen />} />
+          <Route path="about/why-union" element={<WhyUnion />} />
           <Route path="about/licenses" element={<LicensesCertifications />} />
           <Route path="about/commitment" element={<Commitment />} />
           <Route path="about/chairman-message" element={<ChairmansMessage />} />

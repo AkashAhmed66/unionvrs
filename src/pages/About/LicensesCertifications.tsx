@@ -1,6 +1,7 @@
 import React from 'react';
 import { Home, ChevronRight, Share2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const certifications = [
   {
@@ -18,6 +19,8 @@ const certifications = [
 ];
 
 const LicensesCertifications = () => {
+  usePageTitle('Licenses & Certifications');
+
   return (
     <div>
       {/* Hero Section */}

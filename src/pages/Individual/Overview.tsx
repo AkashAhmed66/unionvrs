@@ -1,6 +1,7 @@
 import React from 'react';
 import { Home, ChevronRight, Share2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const stats = [
     { value: '28,000+', label: 'Long-Term Contracts' },
@@ -9,6 +10,8 @@ const stats = [
 ];
 
 const IndividualOverview = () => {
+  usePageTitle('Individual Overview');
+
   return (
     <div>
       {/* Hero Section */}
@@ -48,7 +51,7 @@ const IndividualOverview = () => {
             <div className="lg:w-1/2">
               <p className="text-teal-500 font-semibold">OVERVIEW</p>
               <h2 className="text-4xl font-bold text-[#001f3f] mt-4 leading-snug">
-                At Mueen, we're not simply redefining human resources; we're bringing a touch of reassurance to your doorstep.
+                At Union, we're not simply redefining human resources; we're bringing a touch of reassurance to your doorstep.
               </h2>
               <p className="mt-6 text-gray-600 leading-relaxed">
                 Our individual solutions comprise of extensively trained personnel adept at delivering a variety of services. Imagine having our dedicated team handle all your daily tasks, saving you time and allowing you to enjoy your day worry-free.
@@ -82,10 +85,10 @@ const IndividualOverview = () => {
                 <div className="lg:w-1/2">
                     <p className="text-teal-500 font-semibold">HOW TO APPLY</p>
                     <h2 className="text-4xl font-bold text-[#001f3f] mt-4 leading-snug">
-                        Our Mueen app allows quick and easy bookings, from the comfort of your home.
+                        Our Union app allows quick and easy bookings, from the comfort of your home.
                     </h2>
                     <ol className="mt-6 space-y-4 text-gray-600">
-                        <li>01. Download the "Mueen" application <a href="#" className="text-blue-500 font-bold">IOS App</a> | <a href="#" className="text-blue-500 font-bold">Android App</a></li>
+                        <li>01. Download the "Union" application <a href="#" className="text-blue-500 font-bold">IOS App</a> | <a href="#" className="text-blue-500 font-bold">Android App</a></li>
                         <li>02. Register with your phone number</li>
                         <li>03. Choose the corresponding service from the list below</li>
                         <li>04. Select the correct package and contract period</li>
@@ -94,7 +97,7 @@ const IndividualOverview = () => {
                     <p className="mt-6 text-gray-600">As soon as payment is received, the contract will be activated, and you will receive a confirmation SMS.</p>
                 </div>
                 <div className="lg:w-1/2 mt-8 lg:mt-0">
-                    <img src="https://images.unsplash.com/photo-1614926017290-3c737038c4d2?q=80&w=1780&auto=format&fit=crop" alt="Mueen App on phone" className="rounded-lg shadow-lg" />
+                    <img src="https://images.unsplash.com/photo-1614926017290-3c737038c4d2?q=80&w=1780&auto=format&fit=crop" alt="Union App on phone" className="rounded-lg shadow-lg" />
                 </div>
             </div>
         </div>

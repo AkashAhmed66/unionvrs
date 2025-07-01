@@ -1,6 +1,7 @@
 import React from 'react';
 import { Home, ChevronRight, Share2, TrendingUp, Briefcase, Users, ShieldCheck, Handshake, Gem, Star, Settings, HeartHandshake } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const values = [
     { icon: Star, title: "Service", text: "We put our customers above ourselves. We decide and act for the benefit of our patrons, contributing to their welfare and creating positive experiences for them." },
@@ -11,7 +12,9 @@ const values = [
     { icon: Gem, title: "Relationships", text: "We create value for co-workers and customers alike, forging lasting relationships based on confidence and trust, and building amity in and out of workplace." }
 ];
 
-const WhyMueen = () => {
+const WhyUnion = () => {
+  usePageTitle('Why Union');
+
   return (
     <div>
       {/* Hero Section */}
@@ -24,14 +27,14 @@ const WhyMueen = () => {
           <div className="flex justify-between items-end">
             <div>
               <h1 className="text-5xl md:text-6xl font-bold">
-                Why Mueen
+                Why Union
               </h1>
               <div className="flex items-center space-x-2 mt-4 text-lg">
                 <Link to="/"><Home size={20} /></Link>
                 <ChevronRight size={20} />
                 <span>About Us</span>
                 <ChevronRight size={20} />
-                <span>Why Mueen</span>
+                <span>Why Union</span>
               </div>
             </div>
             <button className="p-3 rounded-full border border-white hover:bg-white hover:text-black transition-colors">
@@ -46,18 +49,18 @@ const WhyMueen = () => {
         <div className="container mx-auto px-4 max-w-5xl">
           <p className="text-sm font-bold text-blue-600 uppercase">ABOUT</p>
           <h2 className="text-3xl md:text-4xl font-bold text-[#001f3f] mt-2 mb-6">
-            Established in 2015, Mueen started as a Saudi closed joint-stock company, transcending the boundaries of traditional recruitment agencies.
+            Established in 2015, Union started as a Saudi closed joint-stock company, transcending the boundaries of traditional recruitment agencies.
           </h2>
           <div className="text-gray-600 space-y-4 text-lg">
-            <p>Operating with global standards and local expertise, Mueen has rapidly grown both its client portfolio and workforce. Over the past years, Mueen has made significant contributions to key sectors of the Kingdom's economy, including hospitality, construction, healthcare, industrial, and retail. Our commitment to excellence and transparency is evident through substantial investments in technological infrastructure, policy development, and procedures alignment with these principles.</p>
-            <p>Mueen has forged international partnerships focusing on ethical recruitment practices, human rights, and combating human trafficking. Care is ingrained in Mueen's values, with accommodations strategically located throughout the Kingdom, ensuring employee well-being during emergencies. Our commitment extends to providing top-tier healthcare through licensed providers and establishing a dedicated employee hotline for swift issue resolution.</p>
-            <p>Looking forward to the end of 2026, Mueen aims to expand its workforce to nearly 30,000 employees, achieve sales exceeding one billion Saudi Riyals, all while delivering an unparalleled customer experience.</p>
+            <p>Operating with global standards and local expertise, Union has rapidly grown both its client portfolio and workforce. Over the past years, Union has made significant contributions to key sectors of the Kingdom's economy, including hospitality, construction, healthcare, industrial, and retail. Our commitment to excellence and transparency is evident through substantial investments in technological infrastructure, policy development, and procedures alignment with these principles.</p>
+            <p>Union has forged international partnerships focusing on ethical recruitment practices, human rights, and combating human trafficking. Care is ingrained in Union's values, with accommodations strategically located throughout the Kingdom, ensuring employee well-being during emergencies. Our commitment extends to providing top-tier healthcare through licensed providers and establishing a dedicated employee hotline for swift issue resolution.</p>
+            <p>Looking forward to the end of 2026, Union aims to expand its workforce to nearly 30,000 employees, achieve sales exceeding one billion Saudi Riyals, all while delivering an unparalleled customer experience.</p>
           </div>
         </div>
       </section>
 
       {/* Stats Section */}
-      <section className="bg-blue-600 text-white" style={{ backgroundImage: "url('https://www.mueen.com.sa/website_assets/images/home/v-bg.webp')" }}>
+      <section className="bg-blue-600 text-white" style={{ backgroundImage: "url('https://www.union.com.sa/website_assets/images/home/v-bg.webp')" }}>
         <div className="container mx-auto px-4 py-20">
           <div className="grid grid-cols-1 md:grid-cols-3 text-center gap-12">
             <div>
@@ -80,7 +83,7 @@ const WhyMueen = () => {
       </section>
 
       {/* Vision & Mission Section */}
-      <section className="bg-[#001f3f] text-white">
+      <section className="py-20 bg-[#001f3f] text-white">
         <div className="container mx-auto px-4 py-20">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-center">
             <div>
@@ -106,7 +109,7 @@ const WhyMueen = () => {
       </section>
 
       {/* Our Value Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
             <div className="text-center mb-12">
                 <p className="text-sm font-bold text-blue-600 uppercase">Our Value</p>
@@ -133,4 +136,4 @@ const WhyMueen = () => {
   );
 };
 
-export default WhyMueen; 
+export default WhyUnion; 

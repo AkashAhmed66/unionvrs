@@ -9,9 +9,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Prevent horizontal overflow globally */
+html, body, #root {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Ensure all containers respect viewport width */
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Fix any potential text overflow */
+h1, h2, h3, h4, h5, h6, p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Ensure images don't overflow */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Large logo responsive handling */
+.logo-large {
+  max-width: min(250px, 25vw);
+  max-height: min(250px, 25vw);
+  width: auto;
+  height: auto;
+}
+
+/* Ensure logo container alignment */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }

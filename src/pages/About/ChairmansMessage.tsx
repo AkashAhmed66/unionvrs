@@ -1,10 +1,13 @@
 import React from 'react';
 import MessagePageLayout from '../../components/ui/MessagePageLayout';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const ChairmansMessage = () => {
+  usePageTitle("Chairman's Message");
+
   const chairmanQuote = (
     <>
-      Mueen is fully committed to excellence in every facet of its operations. 
+      Union is fully committed to excellence in every facet of its operations. 
       Our journey is not solely about meeting the needs of today; it is also about 
       anticipating and exceeding the continuously evolving demands and HR trends in the Saudi market.
     </>

@@ -1,8 +1,11 @@
 import React from 'react';
 import { Home, ChevronRight, Share2, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const CorporateProfile = () => {
+  usePageTitle('Corporate Profile');
+
   return (
     <div>
       {/* Hero Section */}

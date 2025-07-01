@@ -1,29 +1,38 @@
 import React from 'react';
 import { Home, ChevronRight, Share2, ArrowRight, Search, ListFilter } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const blogPosts = [
   {
-    date: '07 APR 2025',
-    title: 'Mueen at Major Exhibitions: Strategic Presence and Real Impact Across Sectors',
-    excerpt: 'As part of its ongoing growth strategy, Mueen Human Resources Company participated in several leading exhibitions during 2024 and early 2025. These events played a vital role in strengthening partnerships, showcasing innovative workforce solutions, and...',
-    imageUrl: 'https://images.unsplash.com/photo-1549923746-c342d7547414?q=80&w=1770&auto=format&fit=crop'
+    id: 1,
+    title: 'Union at Major Exhibitions: Strategic Presence and Real Impact Across Sectors',
+    excerpt: 'As part of its ongoing growth strategy, Union Human Resources Company participated in several leading exhibitions during 2024 and early 2025. These events played a vital role in strengthening partnerships, showcasing innovative workforce solutions...',
+    date: 'January 15, 2025',
+    category: 'Events',
+    imageUrl: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=1770&auto=format&fit=crop'
   },
   {
-    date: '19 MAR 2025',
-    title: '10 Years of Mueen: A Journey of Growth, Excellence, and Impact',
-    excerpt: 'This year, we celebrate a remarkable milestone &mdash; 10 years since Mueen was founded. A decade of dedication, transformation, and delivering trusted workforce solutions across the Kingdom and beyond. What started as a vision in 2015 has evolve...',
-    imageUrl: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1974&auto=format&fit=crop'
+    id: 2,
+    title: '10 Years of Union: A Journey of Growth, Excellence, and Impact',
+    excerpt: 'This year, we celebrate a remarkable milestone - 10 years since Union was founded. A decade of dedication, transformation, and delivering trusted workforce solutions across the Kingdom and beyond. What started as a vision in 2015 has evolved...',
+    date: 'December 28, 2024',
+    category: 'Company News',
+    imageUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1740&auto=format&fit=crop'
   },
   {
-    date: '11 MAR 2025',
-    title: 'A Legacy of Excellence Recognized',
-    excerpt: 'At Mueen, excellence is not just a goal&mdash;it&rsquo;s a way of life. Over the years, our commitment to innovation, outstanding service, and creating a thriving workplace has earned us multiple prestigious awards. Each recognition is a testament to our...',
-    imageUrl: 'https://images.unsplash.com/photo-1560250056-07ba64664864?q=80&w=1770&auto=format&fit=crop'
+    id: 3,
+    title: 'Awards and Recognition: Union Receives Multiple Industry Honors',
+    excerpt: 'At Union, excellence is not just a goal - it\'s a way of life. Over the years, our commitment to innovation, outstanding service, and creating a thriving workplace has earned us multiple prestigious awards...',
+    date: 'November 10, 2024',
+    category: 'Awards',
+    imageUrl: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1770&auto=format&fit=crop'
   }
 ];
 
 const Blogs = () => {
+  usePageTitle('Blogs');
+
   return (
     <div>
       {/* Hero Section */}

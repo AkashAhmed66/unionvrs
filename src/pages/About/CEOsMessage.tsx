@@ -1,10 +1,13 @@
 import React from 'react';
 import MessagePageLayout from '../../components/ui/MessagePageLayout';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const CEOsMessage = () => {
+  usePageTitle("CEO's Message");
+
   const ceoQuote = (
     <>
-      At Mueen, our vision extends beyond recruitment; we are dedicated to fostering growth 
+      At Union, our vision extends beyond recruitment; we are dedicated to fostering growth 
       and empowering talent to build a prosperous future for the Kingdom.
     </>
   );

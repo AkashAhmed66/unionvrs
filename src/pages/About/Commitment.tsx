@@ -1,8 +1,11 @@
 import React from 'react';
 import { Home, ChevronRight, Share2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const Commitment = () => {
+  usePageTitle('Commitment');
+
   return (
     <div>
       {/* Hero Section */}
@@ -46,7 +49,7 @@ const Commitment = () => {
             <div className="md:w-1/2">
               <p className="text-sm font-bold text-blue-600 uppercase">Our Commitment to Excellence</p>
               <h2 className="text-3xl md:text-4xl font-bold text-[#001f3f] mt-2 mb-6">
-                Mueen is on a mission to fill the gaps of our dynamic local labor market, addressing societal needs for human capital and skills.
+                Union is on a mission to fill the gaps of our dynamic local labor market, addressing societal needs for human capital and skills.
               </h2>
               <div className="text-gray-600 space-y-4">
                 <p>

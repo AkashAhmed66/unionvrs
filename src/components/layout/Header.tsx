@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronDown, ChevronUp, Search, Menu, X } from 'lucide-react';
+import { ChevronDown, ChevronUp, Menu, X } from 'lucide-react';
 import DropdownMenu from '../ui/DropdownMenu';
 
 const navItems = [
@@ -29,7 +29,7 @@ const navItems = [
     path: '#',
     dropdown: true,
     subItems: [
-        { name: 'Why Mueen', path: '/about/why-mueen' },
+        { name: 'Why Union', path: '/about/why-union' },
         { name: 'Licenses & Certifications', path: '/about/licenses' },
         { name: 'Commitment', path: '/about/commitment' },
         { name: "Chairman's Message", path: '/about/chairman-message' },
@@ -78,17 +78,16 @@ const Header = () => {
 
   return (
     <header className={headerClasses}>
-      <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center py-4">
-          <Link to="/" className="flex items-center space-x-2">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
-            <span className="text-xl md:text-2xl font-bold">mueen</span>
+      <div className="container mx-auto px-4 max-w-full">
+        <div className="flex items-center py-4">
+          <Link to="/" className="flex items-center space-x-2 flex-shrink-0">
+            <img src="/logo.png" alt="Union Logo" width="40" height="40" className="object-contain logo-large" />
           </Link>
 
-          <nav className="hidden lg:flex items-center space-x-6">
+          <nav className="hidden lg:flex items-center space-x-6 flex-1 justify-center ml-8">
             {navItems.map((item) => (
               <div key={item.name} className="relative group">
-                <Link to={item.path} className="flex items-center space-x-1 hover:text-blue-300 transition-colors">
+                <Link to={item.path} className="flex items-center space-x-1 hover:text-blue-300 transition-colors whitespace-nowrap">
                   <span>{item.name}</span>
                   {item.dropdown && <ChevronDown size={16} />}
                 </Link>
@@ -97,15 +96,7 @@ const Header = () => {
             ))}
           </nav>
 
-          <div className="hidden lg:flex items-center space-x-4">
-            <span className="cursor-pointer">العربية</span>
-            <Search className="cursor-pointer" />
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full transition-colors">
-              Join Us
-            </button>
-          </div>
-
-          <div className="lg:hidden">
+          <div className="lg:hidden flex-shrink-0 ml-auto">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
               {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
@@ -138,15 +129,6 @@ const Header = () => {
                  )}
                </div>
             ))}
-            <div className="flex flex-col items-center space-y-4 pt-6 w-full">
-                <div className="flex items-center space-x-6">
-                    <span className="cursor-pointer">العربية</span>
-                    <Search className="cursor-pointer" />
-                </div>
-                <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition-colors w-full max-w-xs">
-                  Join Us
-                </button>
-            </div>
           </nav>
         </div>
       )}

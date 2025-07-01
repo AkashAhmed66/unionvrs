@@ -2,6 +2,7 @@ import React from 'react';
 import { Home, ChevronRight, Share2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import AccordionItem from '../../components/ui/AccordionItem';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const faqData = [
     {
@@ -10,7 +11,7 @@ const faqData = [
     },
     {
       question: 'Should I pay the wages of the hired employees?',
-      answer: 'Yes, as the employer, you are responsible for paying the wages of the employees you hire. Mueen facilitates the recruitment process, but the employment contract and its obligations are between you and the employee.',
+      answer: 'Yes, as the employer, you are responsible for paying the wages of the employees you hire. Union facilitates the recruitment process, but the employment contract and its obligations are between you and the employee.',
     },
     {
       question: "Do I get charged for the employees' non-working days?",
@@ -18,24 +19,26 @@ const faqData = [
     },
     {
         question: 'Is there any legal liability I am responsible for when I hire any workers?',
-        answer: 'Yes, employers have legal responsibilities covering aspects like workplace safety, wage payment, and adherence to labor laws. Mueen ensures that all our placements are compliant with local regulations to minimize your legal risks.',
+        answer: 'Yes, employers have legal responsibilities covering aspects like workplace safety, wage payment, and adherence to labor laws. Union ensures that all our placements are compliant with local regulations to minimize your legal risks.',
     },
     {
         question: "Will my outsourced employees comply with my company's policies and legal authority?",
-        answer: "While outsourced employees are on Mueen's payroll, they are expected to adhere to your company's policies and procedures as part of their work assignment. We work with you to ensure a clear understanding of workplace expectations.",
+        answer: "While outsourced employees are on Union's payroll, they are expected to adhere to your company's policies and procedures as part of their work assignment. We work with you to ensure a clear understanding of workplace expectations.",
     },
     {
         question: 'Are there any costs for replacing employees who do not fit the position?',
-        answer: 'Mueen offers a guarantee period during which we will replace an employee at no additional cost if they are not a good fit for the position, subject to the terms of our service agreement.',
+        answer: 'Union offers a guarantee period during which we will replace an employee at no additional cost if they are not a good fit for the position, subject to the terms of our service agreement.',
     },
     {
-        question: 'What guarantees are offered by Mueen?',
+        question: 'What guarantees are offered by Union?',
         answer: 'We guarantee that all candidates are vetted and qualified for the role. We also offer a replacement guarantee and ensure full compliance with all local labor laws and regulations to provide you with a reliable and risk-free hiring process.',
     },
 ];
   
 
 const CorporateFaq = () => {
+  usePageTitle('Corporate FAQ');
+
   return (
     <div>
       {/* Hero Section */}

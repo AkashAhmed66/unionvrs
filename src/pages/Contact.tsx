@@ -3,13 +3,10 @@ import { Home, ChevronRight, Share2, Phone, Mail, Linkedin, Facebook, Twitter, I
 import { Link } from 'react-router-dom';
 import ContactInfoCard from '../components/ui/ContactInfoCard';
 import FormInput from '../components/ui/FormInput';
+import usePageTitle from '../hooks/usePageTitle';
 
 const branches = [
-    { city: 'Riyadh', address: 'Eastern Ring Rd, Ar Rayyan, Riyadh 11564' },
-    { city: 'Riyadh', address: 'Abi Bakr As Siddiq Rd, An Nafal, Riyadh 12571' },
-    { city: 'Jeddah', address: 'Prince Sultan Rd, Al Muhammadiyah, Jeddah 23623' },
-    { city: 'Dammam', address: 'Prince Mohammed Bin Fahd Road, Al Tubayshi, Dammam 32233' },
-    { city: 'Abha', address: 'King Fahad Rd, Al Manhal, Abha 62521' },
+    { city: 'Dhaka', address: '78 Nayapaltan, Ground Floor, Shanjari Tower, Dhaka -1000, Bangladesh' },
 ];
 
 const Branch = ({ city, address }: { city: string, address: string }) => (
@@ -20,6 +17,8 @@ const Branch = ({ city, address }: { city: string, address: string }) => (
 );
 
 const Contact = () => {
+    usePageTitle('Contact Us');
+
     return (
         <div className="bg-white text-gray-800">
             {/* Hero Section */}
@@ -63,16 +62,24 @@ const Contact = () => {
                             </div>
                             <div className="mt-12 pt-8 border-t border-gray-700">
                                 <p className="text-gray-400">
-                                    You may reach any of our branches through the following contact information:
+                                    You may reach us through the following contact information:
                                 </p>
-                                <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-8 mt-4 text-white">
+                                <div className="flex flex-col gap-4 mt-4 text-white">
                                     <div className="flex items-center space-x-3">
                                         <Phone />
-                                        <span className='text-lg'>+966 920005708</span>
+                                        <span className='text-lg'>+8801717002442</span>
+                                    </div>
+                                    <div className="flex items-center space-x-3">
+                                        <Phone />
+                                        <span className='text-lg'>+8801716894670</span>
+                                    </div>
+                                    <div className="flex items-center space-x-3">
+                                        <Phone />
+                                        <span className='text-lg'>+8802222227072</span>
                                     </div>
                                     <div className="flex items-center space-x-3">
                                         <Mail />
-                                        <span className='text-lg'>info@mueen.com.sa</span>
+                                        <span className='text-lg'>unionRL.bd@gmail.com</span>
                                     </div>
                                 </div>
                             </div>

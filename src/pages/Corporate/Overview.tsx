@@ -1,6 +1,8 @@
 import React from 'react';
 import { Home, ChevronRight, Share2, ArrowLeft, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import ServiceSection from '../../components/ui/ServiceSection';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const industries = [
     { name: 'Delivery Services', image: 'https://images.unsplash.com/photo-1617396393472-96536b6b5b5c?q=80&w=1770&auto=format&fit=crop' },
@@ -13,6 +15,8 @@ const industries = [
 const partners = ['NSH', 'RSCM', 'SR Group', 'Nascom', 'ESOM'];
 
 const CorporateOverview = () => {
+  usePageTitle('Corporate Overview');
+
   return (
     <div>
       {/* Hero Section */}
@@ -86,7 +90,7 @@ const CorporateOverview = () => {
       </section>
 
       {/* Partners Section */}
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-items-center">
             {partners.map(partner => (
@@ -96,7 +100,7 @@ const CorporateOverview = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* International Outreach Section */}
       <section className="py-20 bg-gray-50">

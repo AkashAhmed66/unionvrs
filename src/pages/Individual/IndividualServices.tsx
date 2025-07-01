@@ -2,11 +2,12 @@ import React from 'react';
 import { Home, ChevronRight, Share2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ServiceSection from '../../components/ui/ServiceSection';
+import usePageTitle from '../../hooks/usePageTitle';
 
 const servicesData = [
   {
     title: `Resident Services`,
-    tagline: `At Mueen, your comfort takes center stage, and we're committed to delivering a premium service with live-in, trained, and qualified houseworkers held to the highest standards.`,
+    tagline: `At Union, your comfort takes center stage, and we're committed to delivering a premium service with live-in, trained, and qualified houseworkers held to the highest standards.`,
     description: `Choose from our array of packages tailored to meet your every need.`,
     imageUrl: `https://images.unsplash.com/photo-1582719201943-1f1a1d35a1a2?q=80&w=1770&auto=format&fit=crop`,
   },
@@ -18,13 +19,15 @@ const servicesData = [
   },
   {
     title: `Mediation Services`,
-    tagline: `In line with the Ministry of Human Resources, our mediation services for resident workers (الاستقدام/ Esteqdam) are available via the governmental platform "Musaned".`,
-    description: `Once you request your worker's visa through the platform, choose Mueen, and we'll complete the rest of the procedures. You can enjoy the benefits of this service upon request, for a period anywhere between 45 and 90 days. Included: Receiving the worker from the ...`,
+    tagline: `In line with the Ministry of Human Resources, our mediation services for resident workers (Esteqdam) are available via the governmental platform "Musaned".`,
+    description: `Once you request your worker's visa through the platform, choose Union, and we'll complete the rest of the procedures. You can enjoy the benefits of this service upon request, for a period anywhere between 45 and 90 days. Included: Receiving the worker from the ...`,
     imageUrl: `https://images.unsplash.com/photo-1607502787834-455b5438813a?q=80&w=1887&auto=format&fit=crop`,
   }
 ];
 
 const IndividualServices = () => {
+  usePageTitle('Individual Services');
+
   return (
     <div>
       {/* Hero Section */}
